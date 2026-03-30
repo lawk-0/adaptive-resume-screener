@@ -141,3 +141,15 @@ Now that the backend flow is clear, Ritik will explain the machine learning pipe
 
 ## Emergency 20-Second Summary
 My part covers the backend API and database flow. FastAPI validates requests, parses the resume, runs analysis and prediction, stores the result in SQLite, and later updates the same record with reviewer feedback using `prediction_id`.
+
+## Final Presentation Script
+
+### Slide 7
+"The backend is implemented using FastAPI and is organized into routes, schemas, and services. The central endpoint is `/analyze`, which validates the request, reads the uploaded file, parses the resume, extracts features and matching signals, runs model prediction, stores the result in SQLite, and returns a structured JSON response to the frontend. We also have `/health`, `/predict`, `/feedback/{prediction_id}`, and `/feedback/retraining-status` to support monitoring, manual prediction, feedback submission, and retraining readiness."
+
+### Slide 10
+"The database layer uses SQLite and stores each prediction together with the decision, scores, features, explanation, and feedback fields. Every analysis result gets a unique prediction ID. When the reviewer submits feedback, that same prediction record is updated using the prediction ID. The system also counts how many labeled feedback records are available and reports when enough data has been collected for adaptive retraining."
+
+## Final Handoffs
+- After Slide 7: "Now Ritik will explain the machine learning pipeline and how the model makes its recommendation."
+- After Slide 10: "Finally, Mrinalendu will briefly cover testing and deployment readiness before we conclude."

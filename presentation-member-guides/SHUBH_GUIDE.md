@@ -112,3 +112,18 @@ Feedback is saved after prediction, and the retraining pipeline checks when enou
 
 ## Emergency 20-Second Summary
 Adaptive Resume Screener is an explainable AI-assisted prototype for initial resume shortlisting. It takes a resume and job description, extracts interpretable features, predicts shortlist suitability, stores the result in SQLite, and collects feedback for future retraining.
+
+## Final Presentation Script
+
+### Slide 1
+"Good morning, respected sir. Our project is Adaptive Resume Screener, an AI-assisted and explainable resume screening prototype. Our team developed this system to support the initial shortlisting process by combining resume analysis, machine learning prediction, database storage, and feedback-based improvement. In this presentation, we will explain the problem, the architecture, the workflow, the model, and the final results."
+
+### Slide 2
+"Manual resume screening is time-consuming, repetitive, and often inconsistent when a recruiter has to review many applications. Traditional screening methods also lack transparency, so it is hard to explain why a candidate was shortlisted or rejected. Our project addresses this problem by creating a faster and more structured first-pass screening system that also provides clear feature-based explanations."
+
+### Slide 12
+"To conclude, Adaptive Resume Screener is an end-to-end prototype that integrates frontend interaction, backend APIs, explainable analysis, machine learning prediction, SQLite persistence, and feedback collection. The system improves transparency and consistency in initial resume shortlisting and demonstrates how a hybrid AI pipeline can support recruiters. As future scope, we can improve parsing quality, use larger role-specific datasets, refine threshold tuning, and strengthen the adaptive retraining pipeline. Thank you."
+
+## Final Handoffs
+- After Slide 2: "Now Aditya will explain the main objectives of the project and how the full system is integrated."
+- Before Slide 12: "Now I will conclude the presentation with the final summary and future scope."

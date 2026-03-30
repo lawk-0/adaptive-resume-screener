@@ -121,3 +121,14 @@ That covers the feature engineering and model evaluation part of the system. The
 
 ## Emergency 20-Second Summary
 My part is the ML pipeline. We extract six interpretable features from the resume and job description, run them through a lightweight PyTorch model, evaluate the output using standard metrics, and keep the system recall-oriented for first-pass screening.
+
+## Final Presentation Script
+
+### Slide 8
+"The machine learning component uses a lightweight PyTorch feedforward neural network called ResumeNet. Before prediction, the resume analysis service extracts six interpretable numerical features: years of experience, skills match score, education level, project count, resume length, and GitHub activity. These features are chosen because they are understandable, easy to explain, and directly related to resume-job fit."
+
+### Slide 9
+"The current checkpoint gives Accuracy 0.6988, Precision 0.6988, Recall 1.0000, F1 Score 0.8227, and AUC-ROC 0.7982. The most important point is that the threshold is set to 0.30, so the model is intentionally tuned for high recall. This means the system is designed not to miss potentially suitable candidates during first-pass screening, even if it shortlists some extra candidates."
+
+## Final Handoff
+- After Slide 9: "Now Harshit will explain how predictions and feedback are stored and how the adaptive part of the system is handled."

@@ -110,3 +110,18 @@ Now that the UI and user workflow are clear, Harshit will explain the backend AP
 
 ## Emergency 20-Second Summary
 My part covers the user workflow, frontend behavior, and demo readiness. The interface collects the inputs, displays detailed results and explainability, accepts reviewer feedback, and the whole project can be started reliably using Docker.
+
+## Final Presentation Script
+
+### Slide 5
+"From the user perspective, the workflow is simple and practical. First, the recruiter uploads a resume in TXT, PDF, or DOCX format. Next, the recruiter pastes the job description. Then the system analyzes the resume against the role requirements and shows the recommendation. After reviewing the result, the recruiter can also submit feedback on whether the recommendation was correct."
+
+### Slide 6
+"The frontend is designed to make the result easy to understand. Instead of showing only shortlist or reject, the interface displays the confidence, threshold, ATS-style score, semantic score, final score, matched keywords, missing keywords, extracted features, and explanation text. It also provides a feedback form, which supports the human-in-the-loop idea of the project."
+
+### Slide 11
+"To improve reliability, the project includes automated tests for backend API behavior, resume analysis logic, and feedback persistence. The project is also containerized using Docker and Docker Compose, which makes it easier to run the frontend and backend in a consistent demo environment. This helps us present the system more confidently and reduces setup issues during demonstration."
+
+## Final Handoffs
+- After Slide 6: "Now Harshit will explain what happens inside the backend when the user submits the resume and job description."
+- After Slide 11: "Now Shubh will conclude the presentation with the final summary and future scope."

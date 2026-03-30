@@ -94,3 +94,14 @@ Now that the system architecture is clear, Mrinalendu will show how this workflo
 
 ## Emergency 20-Second Summary
 My part is the integration story. The frontend sends the resume and job description to the backend, the backend coordinates parsing, analysis, model inference, and storage, and then the frontend displays the result and collects feedback.
+
+## Final Presentation Script
+
+### Slide 3
+"The main objectives of our project are to accept a resume and job description as input, extract useful information from the resume automatically, compare the candidate profile with the job requirements, generate a shortlisting recommendation using heuristic analysis and machine learning, provide explainable output such as matched keywords and feature values, and store predictions with reviewer feedback for future improvement."
+
+### Slide 4
+"This slide shows the overall system architecture. The frontend collects the resume file and job description from the user. The FastAPI backend receives the request and coordinates all services including parsing, analysis, model inference, and persistence. The resume analysis service generates explainable features and scores, the ResumeNet model predicts shortlist suitability, and SQLite stores predictions, feedback, and retraining readiness information. Finally, the result is returned to the frontend for display."
+
+## Final Handoff
+- After Slide 4: "Now Mrinalendu will show how this workflow appears from the user side in the actual application."
